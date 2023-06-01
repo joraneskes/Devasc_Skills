@@ -1,0 +1,9 @@
+In het script wordt eerst het commando 'show version | include uptime' verzonden om de uptime van de router te controleren. Vervolgens wordt het commando 'show ip interface brief | exclude down' gebruikt om de actieve interfaces weer te geven.
+
+Het script controleert vervolgens de configuratie van specifieke interfaces met het commando 'show running-config interface' en past wijzigingen aan als dat nodig is met het commando 'no shutdown'.
+
+Daarna wordt het commando 'show ip route' gebruikt om de routing tabel weer te geven.
+
+Het script configureert tenslotte een loopback interface met het commando 'interface loopback' en het commando 'ip address'.
+
+Na het uitvoeren van de verschillende commando's wordt de configuratie opgeslagen met het commando 'save_config'.

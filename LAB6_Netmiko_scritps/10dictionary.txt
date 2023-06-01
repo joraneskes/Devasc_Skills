@@ -1,0 +1,1 @@
+- Connect using a Python Dictionary? Zelfde, ‘device’ in ‘**device’ dient als argument, 
